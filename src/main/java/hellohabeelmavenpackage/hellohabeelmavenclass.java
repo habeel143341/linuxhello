@@ -7,7 +7,7 @@ public class hellohabeelmavenclass {
 	}
 
 	public static void main(String[] args) {
-	 System.out.print("hello habeel kunjikoylu is your love");
+	 System.out.print(" kunjikoylu is your love");
 
 	}
 
