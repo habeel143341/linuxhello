@@ -1,0 +1,21 @@
+pipeline {
+                agent { 
+                            label” Jenkins-Agent”
+                            }
+                tools{
+                           jdk  "JAVA_HOME"
+	      maven "maven"
+                           }
+              stages {
+        
+                             stage("cleanup workspace"){
+
+                                         steps{
+                                                     cleanws()
+                                                    }
+                                       }
+                            }
+            
+        
+    
+          }
