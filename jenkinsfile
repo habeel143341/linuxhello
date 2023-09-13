@@ -12,10 +12,10 @@ pipeline {
                                                      cleanWs()
                                                     }
                                        }
-                             stage("ccheckout from scm"){
+                             stage("Checkout from SCM"){
 
                                          steps{
-                                                     git branch:'main'
+                                                     git branch:'main', credentialsId:'githttps', url:'https://github.com/habeel143341/linuxhello.git'
                                                     }
                                        }
                             }
