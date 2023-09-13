@@ -15,7 +15,7 @@ pipeline {
 
                                stage("Checkout from SCM"){
                                           steps {
-                                                 git branch: '*/master', credentialsId: 'githttps', url: 'https://github.com/habeel143341/linuxhello.git'
+                                                 git branch: '*/master', credentialsId: 'githttps', url: 'https://github.com/habeel143341/linuxhello'
                                                 }
 
                                                          }         
