@@ -8,7 +8,7 @@ pipeline {
 
 
                             environment {
-        APP_NAME = "HELLOHABEELMAVEN"
+        APP_NAME = "hellohabeelmaven"
         RELEASE = "1.0.0"
         DOCKER_USER = "habeel143341"
         DOCKER_PASS = 'dockerhub'
