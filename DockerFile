@@ -1,4 +1,4 @@
 FROM maven as build
-WORKDIR /app
+WORKDIR /home/habeel/eclipse-workspace/hellohabeelmaven
 COPY . .
 RUN mvn clean install
