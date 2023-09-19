@@ -3,7 +3,4 @@
   <groupId>hellohabeelmaven</groupId>
   <artifactId>hellohabeelmaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-    <finalName>hello-habeelmaven</finalName>
-    </build>
 </project>
