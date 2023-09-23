@@ -40,7 +40,7 @@ pipeline {
         stage("Build & Push Docker Image") {
             steps {
                 script {
-                    sh "docker build -t habeel143341/hello-habeelmaven"
+                    sh 'docker build -t habeel143341/hello-habeelmaven .'
                     }
 
                    
