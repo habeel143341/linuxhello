@@ -1,5 +1,0 @@
-FROM eclipse-temurin:17.0.6_10-jdk
-EXPOSE 8080
-ADD target/hello-habeelmaven.jar hello-habeelmaven.jar
-
-ENTRYPOINT ["java", "-jar","/hello-habeelmaven.jar"]
